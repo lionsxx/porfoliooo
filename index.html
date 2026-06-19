@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lions — Software Engineer</title>
+<meta name="description" content="Software engineer building full systems end to end — backend platforms, real-time apps, and game systems.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <p>Contato para trabalhos: <a href="mailto:uevertonsoares65@email.com">uevertonsoares65@email.com</a> · <a href="https://www.linkedin.com/in/uéverton-soares-23730829b" target="_blank" rel="noopener">LinkedIn</a></p>
+</div>
+
+<header class="hero">
+  <h1>Uéverton</h1>
+  <p class="subtitle">
+    Experienced Full Stack Web Developer focused on building reliable, scalable solutions that solve real business problems. Passionate about turning ideas into high-quality web applications.
+  </p>
+</header>
+
+<main>
+  <h2 class="section-title">Projects</h2>
+
+  <div class="grid">
+
+    <article class="card" data-modal="onlyou">
+      <div class="card-media">
+        <span class="media-label">OnlyYou</span>
+      </div>
+      <div class="card-body">
+        <h3>Creator monetization platform</h3>
+        <div class="tags">
+          <span class="tag tag-green">Laravel</span>
+          <span class="tag tag-green">PHP</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="card" data-modal="Streaming Platform">
+      <div class="card-media">
+        <span class="media-label">Streaming</span>
+      </div>
+      <div class="card-body">
+        <h3>Streaming &amp; Platform</h3>
+        <div class="tags">
+          <span class="tag tag-purple">Chrome Ext.</span>
+          <span class="tag tag-purple">MCP</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="card" data-modal="ucp">
+      <div class="card-media">
+        <span class="media-label">UCP SA-MP</span>
+      </div>
+      <div class="card-body">
+        <h3>UCP SA-MP</h3>
+        <div class="tags">
+          <span class="tag tag-orange">PHP</span>
+          <span class="tag tag-orange">MySQL</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="card" data-modal="arenaX">
+      <div class="card-media">
+        <span class="media-label">Arena X</span>
+      </div>
+      <div class="card-body">
+        <h3>Esports Competition Platform</h3>
+        <div class="tags">
+          <span class="tag tag-blue">PHP</span>
+          <span class="tag tag-blue">Game Architecture</span>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</main>
+
+<footer class="footer">
+  <a href="mailto:uevertonsoares65@email.com">uevertonsoares65@email.com</a>
+  <span class="dot-sep">·</span>
+  <a href="https://www.linkedin.com/in/uéverton-soares-23730829b" target="_blank" rel="noopener">LinkedIn</a>
+  <span class="dot-sep">·</span>
+  <p class="copyright">© <span id="year"></span> Lions</p>
+</footer>
+
+<!-- MODAL -->
+<div class="modal-overlay" id="modal-overlay">
+  <div class="modal" role="dialog" aria-modal="true">
+    <button class="modal-close" id="modal-close" aria-label="Close">✕</button>
+    <div class="modal-media" id="modal-media"></div>
+    <div class="modal-gallery" id="modal-gallery" aria-label="Project image gallery"></div>
+    <div class="modal-content">
+      <h3 id="modal-title"></h3>
+      <div class="tags" id="modal-tags"></div>
+      <p id="modal-desc"></p>
+      <ul id="modal-points"></ul>
+      <a href="#" id="modal-link" class="modal-link" target="_blank" rel="noopener">View case study →</a>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
