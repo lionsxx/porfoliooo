@@ -246,8 +246,11 @@ main {
 .modal-close:hover { background: rgba(255,255,255,0.16); }
 
 .modal-media {
-  height: 180px;
+  height: 240px;
   border-radius: 14px 14px 0 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .modal-gallery {
@@ -268,7 +271,7 @@ main {
 
 .modal-gallery-item {
   flex: 0 0 110px;
-  height: 84px;
+  height: 94px;
   border-radius: 14px;
   background-size: cover;
   background-position: center;

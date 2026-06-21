@@ -14,7 +14,9 @@ const projects = {
     ],
     images: [
       'imgs/onlyyou.png',
-      'imgs/onlyyou2.png'
+      'imgs/onlyyou2.png',
+      'imgs/onlyyou3.png',
+      'imgs/onlyyou4.png'
     ],
     link: '#'
   },
